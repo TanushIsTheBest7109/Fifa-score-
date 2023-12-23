@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+
+
+.scoreboard{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard input{
+    margin: 30px;
+    font-size: 24px;
+    padding: 8px 20px;
+    border-radius: 12px;
+    border: 2px solid #70b170;
+}
+
+
+h1{
+    color: #70b170;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+.scoreboard span{
+    color: #70b170;
+    font-size: 20px;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+.qualifyboard{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.qualifyboard li{
+    margin: 30px;
+    font-size: 24px;
+}
+.update{
+    padding: 15px 30px;
+    background: rgb(41, 41, 41);
+    border-radius:15px;
+    color: white;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.update:hover{
+    background: black;
+}
+
+
+
+.qualifyboard .quali{
+    margin: 0px 15px;
+    margin-top: 20px;
+    background: #70b170;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.qualifyboard .quali:hover{
+    background: #4c784c;
+    
+}
+
+.qualifyboard .disquali{
+    margin: 0px 15px;
+    margin-top: 20px;
+    background: rgb(255, 83, 83);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.qualifyboard .disquali:hover{
+    background: rgb(186, 60, 60);
+    
+}
+.qualifyboard h3{
+    color: #70b170;
+    font-size: 40px;
+    
+}
+
+
+
+.qualifyboard .bool1, .bool2, .bool3{
+    color: rgb(255, 83, 83);
+
+}
+
+
+.players{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.players h3{
+    color: #70b170;
+    font-size: 40px;
+}
+
+.players li{
+    margin: 30px;
+    font-size: 24px;
+}
